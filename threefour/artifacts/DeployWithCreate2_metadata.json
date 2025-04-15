@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "目标部署合约 - 将通过CREATE2方式部署的示例合约",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"threefour/Create2.sol": "DeployWithCreate2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"threefour/Create2.sol": {
+			"keccak256": "0xa808c93f23fae2cdcccfafadea8090df8604b07a9bc4bb3a339317a8d60d31f3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://053f41f6fde5eb10115eaaaab0bf2517e577608ec605c79d32b4fc4ecb770e7e",
+				"dweb:/ipfs/QmYuUTSRst1ffvi4VGjfqn1F7h5BqrNTKfgPwjg46RMuCd"
+			]
+		}
+	},
+	"version": 1
+}

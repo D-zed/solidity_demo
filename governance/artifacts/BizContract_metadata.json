@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_var",
+						"type": "uint256"
+					}
+				],
+				"name": "call",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showCallData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"governance/BizContract.sol": "BizContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"governance/BizContract.sol": {
+			"keccak256": "0x32c381c2201635ec6223006267b4d771da8eabdc7845bbc003ffba44938a8a95",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://975e710e123e7f97e7b5bf70a4eafcf9f1435b3a1ee69af6c9f5b8c6d8ecd4f3",
+				"dweb:/ipfs/QmSiGgGN9vJ8vQdMvkQi7EnC51KaexDuxzkznHuXmsQ88x"
+			]
+		}
+	},
+	"version": 1
+}

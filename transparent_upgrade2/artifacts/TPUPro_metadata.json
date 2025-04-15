@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"transparent_upgrade2/TPUProxy.sol": "TPUPro"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"transparent_upgrade2/TPUProxy.sol": {
+			"keccak256": "0xa427e50820021ebaaceca9f8298dcd10779d1ce127cd985c7e21ab31424f668c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f969a25ca4a42f00658a3a204337de9a1bff744eaf25a1e4fac930edebbbb42",
+				"dweb:/ipfs/QmeRdix37jJwwu5NWiJaepZx23MRYoHtogVNecUATe1ben"
+			]
+		}
+	},
+	"version": 1
+}

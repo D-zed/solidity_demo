@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"six/ByteCode.sol": "Factory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"six/ByteCode.sol": {
+			"keccak256": "0xab1c8588f3b4be9c7f7fa79f3778db58a481ff18f93e791af4818189b2f758e2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77aa4b4d200d17ebbcc28b1701bdff12264c54c31bed3ef5a1f4e0452f35a8e2",
+				"dweb:/ipfs/QmW8E83jgun6whrwSr2VJ6CaUNxgjVUVQrv4sEews6wAUT"
+			]
+		}
+	},
+	"version": 1
+}

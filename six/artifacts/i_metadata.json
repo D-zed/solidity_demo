@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"six/AbiEncode.sol": "i"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"six/AbiEncode.sol": {
+			"keccak256": "0x98f4cae7a19887f4b1d1fd1a2cac24cd6557292faba5b11a9ff3fb98878122e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fde42f58465efef06a51eb694e47d280c54f7fb03cca4b85b47a68e5d40185d0",
+				"dweb:/ipfs/QmPkgVSSQ8xo7w1jBt5XqmdvM49gKUF7g7gYnKiDvHz5YJ"
+			]
+		}
+	},
+	"version": 1
+}

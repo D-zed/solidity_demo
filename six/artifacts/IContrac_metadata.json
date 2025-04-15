@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"six/ByteCode.sol": "IContrac"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"six/ByteCode.sol": {
+			"keccak256": "0x32aba74e1758071caee9ff01e2ba9c4eada6b8aaabae86bbb2b49e54fbdf15b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dfadb361d59e439b4c21ee6f86d3d98b4ddd720d5d69882ca8dfe4ff550617fa",
+				"dweb:/ipfs/QmSnzHJr75UmF1yBMya13sGPeikNN7Hm2AXq7s5JN9cud4"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "clock",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"governance/Test.sol": "Test"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"governance/Test.sol": {
+			"keccak256": "0x85c58124c49be9a9f804fc6307f5f75e09b410614cf09333edbeeff93e6f73ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ac3cdc06dfceb84309f7c42c507235c05974886946ecd5aa0699f1ac2ca4de3",
+				"dweb:/ipfs/Qma5hBpMykjtZ8hKkp1pvQZTHxU3Y29QjXVXoVow9fjUBi"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "Deploy",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_salt",
+						"type": "uint256"
+					}
+				],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "bytecode",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_salt",
+						"type": "uint256"
+					}
+				],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "getByteCode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"deploy(uint256)": {
+					"params": {
+						"_salt": "用于确定部署地址的盐值（任意uint数值）"
+					}
+				},
+				"getAddress(bytes,uint256)": {
+					"params": {
+						"_salt": "部署时使用的盐值",
+						"bytecode": "目标合约的完整字节码（包含构造函数参数）"
+					},
+					"returns": {
+						"_0": "预测的合约地址  地址计算公式遵循EIP-1014标准： address = 最低160位(keccak256(0xff ++ 工厂地址 ++ salt ++ keccak256(bytecode)))"
+					}
+				},
+				"getByteCode(address)": {
+					"params": {
+						"_owner": "要传递给目标合约构造函数的参数"
+					},
+					"returns": {
+						"_0": "拼接后的完整字节码  说明：当使用CREATE2时，构造函数参数需要包含在字节码中， 因此需要将creationCode与编码后的参数拼接"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"deploy(uint256)": {
+					"notice": "使用CREATE2操作码部署目标合约"
+				},
+				"getAddress(bytes,uint256)": {
+					"notice": "预计算目标合约的部署地址"
+				},
+				"getByteCode(address)": {
+					"notice": "生成目标合约的完整字节码（包含构造函数参数）"
+				}
+			},
+			"notice": "CREATE2工厂合约 - 用于预计算地址并部署目标合约",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"threefour/Create2.sol": "Create2Factory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"threefour/Create2.sol": {
+			"keccak256": "0xa808c93f23fae2cdcccfafadea8090df8604b07a9bc4bb3a339317a8d60d31f3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://053f41f6fde5eb10115eaaaab0bf2517e577608ec605c79d32b4fc4ecb770e7e",
+				"dweb:/ipfs/QmYuUTSRst1ffvi4VGjfqn1F7h5BqrNTKfgPwjg46RMuCd"
+			]
+		}
+	},
+	"version": 1
+}
