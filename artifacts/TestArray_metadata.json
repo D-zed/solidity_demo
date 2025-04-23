@@ -1,18 +1,11 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "examples",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +13,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "myArray",
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -35,15 +28,15 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "nums",
+				"name": "testFind",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "i",
 						"type": "uint256"
 					}
 				],
@@ -54,48 +47,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "nums1",
+				"name": "testFind2",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "i",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "nums2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "returnArray",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "view",
@@ -115,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Array.sol": "TestArray"
+			"Library.sol": "TestArray"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -129,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Array.sol": {
-			"keccak256": "0xa51e7f5ad720fdc6968f08cc97e67985d789f3bceb4fdd88ad49bbb96588d04d",
+		"Library.sol": {
+			"keccak256": "0x1dc257a83138fe251f233daf53be2a8f59a3e144922fe32ff40f711db2d0b697",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3d27a10b58592a0f876054b80e08525be3c53cc4c8c0438ec605c65c03419b42",
-				"dweb:/ipfs/QmPcTbN4mBnU73jeyBS6qeLRtvMELpN5BiA8vZT6mbfCzL"
+				"bzz-raw://3dec9a22c242afcd48447835c25547488da6c23f7b34b6fe079babf927a06f74",
+				"dweb:/ipfs/QmPFYsR4DqBGCpBsCUY6Wij9nzMW4ieCbPLC5C1fpEfW5z"
 			]
 		}
 	},

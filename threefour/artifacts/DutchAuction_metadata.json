@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -156,9 +156,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"threefour/DutchAuction.sol": "DutchAuction"
+			"threefour/DutchAuction2.sol": "DutchAuction"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -170,12 +170,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"threefour/DutchAuction.sol": {
-			"keccak256": "0x197ef379fc9006b8e7985dd9fdcbc994f70bb34b5f2c0d68e379690e09b31b6f",
+		"threefour/DutchAuction2.sol": {
+			"keccak256": "0x3087165551e92c59049e60412dd05201b673a1ab807d9a3589f943638098f3c9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://314c3625aa778b91a6bd346b3e051b31dabcc5db4765981817ca5b126276f755",
-				"dweb:/ipfs/QmZjx8kKe6dwHuDVHnpaiauufzoZtFsDuwd9qHAZNV7PQc"
+				"bzz-raw://4be960e33a09dc3d0d1692beb4da53189991bdfca84a6190fcbba13ff38e5376",
+				"dweb:/ipfs/Qmc5BZ6Modbci3dU55f1BH3N4nRttLAf8RkubGeUcBRe6M"
 			]
 		}
 	},

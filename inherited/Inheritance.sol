@@ -30,9 +30,9 @@ contract B is A {
 
 //继承
 contract C is B {
-
-    //virtual 抽象方法，标识这个的才可以重写
-    function bar() public pure override returns(string memory){
-        return "C-bar";
+    //virtual 抽象方法，标识这个必须重写否则报错
+    function bar() public pure virtual override returns(string memory){
+        return "B-bar";
     }
+
 }

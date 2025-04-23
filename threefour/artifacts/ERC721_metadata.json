@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -304,9 +304,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyNft.sol": "ERC721"
+			"threefour/MyNft.sol": "ERC721"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -318,7 +318,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyNft.sol": {
+		"threefour/MyNft.sol": {
 			"keccak256": "0xda8f31511f41ad59a0f7557ba81c72e543ddb594d074bd81579deeb27b72a6cd",
 			"license": "MIT",
 			"urls": [

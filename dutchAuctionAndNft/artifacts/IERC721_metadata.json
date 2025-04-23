@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nftId",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"dutchAuction/DutchAuction2.sol": "IERC721"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"dutchAuction/DutchAuction2.sol": {
+			"keccak256": "0x3087165551e92c59049e60412dd05201b673a1ab807d9a3589f943638098f3c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4be960e33a09dc3d0d1692beb4da53189991bdfca84a6190fcbba13ff38e5376",
+				"dweb:/ipfs/Qmc5BZ6Modbci3dU55f1BH3N4nRttLAf8RkubGeUcBRe6M"
+			]
+		}
+	},
+	"version": 1
+}

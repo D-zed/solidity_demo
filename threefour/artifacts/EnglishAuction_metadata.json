@@ -267,7 +267,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/EnglishAuction.sol": "EnglishAuction"
+			"threefour/EnglishAuction.sol": "EnglishAuction"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -281,7 +281,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/EnglishAuction.sol": {
+		"threefour/EnglishAuction.sol": {
 			"keccak256": "0x8273b176018d7c68130ec175f99c8205327aebf72732806cedbc9e51529c766e",
 			"license": "MIT",
 			"urls": [

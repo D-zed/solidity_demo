@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -22,7 +22,7 @@
 				"inputs": [],
 				"name": "bar",
 				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -69,11 +69,11 @@
 			]
 		},
 		"inherited/ParentFunctionCall.sol": {
-			"keccak256": "0x07f2427de27a6ee1a2bdca56aa5d9e1d842a61d6fe9ffb3b3ef485f9cfbe013d",
+			"keccak256": "0x60584cdfcc21fa222fd309db3f7e293b9c406d7d545b58a9e7c18768a4ff84fa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://13a8a0a8e339e7ae1d6a012ae8676b44eccd3c998d0892478d0aafcb5e8dbd0f",
-				"dweb:/ipfs/QmUUMc5vu5dtwoDdDfHgNjNJfZ8bKXX6wh1ajbsQ51xDm2"
+				"bzz-raw://0422abddbcd3567cf2fb3768fb0f648396352cc6cd2e63df019f02f32d0d0fa1",
+				"dweb:/ipfs/QmbBd8sb1vFybcQqeT9nk44cTMcPcP5fw8sq3uEqNA8Tyv"
 			]
 		}
 	},
